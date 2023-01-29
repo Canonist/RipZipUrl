@@ -6,3 +6,5 @@ Only tested and working on single layer links, i.e. clicking the link starts the
 If there are undesired downloads on the page with the .zip filetype, they will be downloaded. Edit code as necessary.
 If it's broken, it's due to excessive cleaning of the code for aesthetics.
 This code depends on libraries.
+
+This script does not contain a sleep timer, it is intended for large archives, where their slow processing slows the script down sufficiently. Please add sleeptimers and pauses if your use case is in a faster environment, to avoid accidents involving denial of service.
